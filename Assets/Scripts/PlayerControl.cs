@@ -74,6 +74,5 @@ public class PlayerControl : MonoBehaviour
             rb.AddForce(Vector2.up * jumpmagnitude);
         }
     }
-
 }
 
