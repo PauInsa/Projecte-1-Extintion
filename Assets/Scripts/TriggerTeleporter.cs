@@ -20,7 +20,9 @@ public class TriggerTeleporter : MonoBehaviour
 			if (oneShot)
 				skipEvents = true;
 
-			onTriggerTeleport?.Invoke(targetTransform.position);
+			if(onTriggerTeleport != null)
+				onTriggerTeleport.Invoke(targetTransform.position);
+
 			onTriggerTeleportWithDelay?.Invoke(targetTransform.position, delayTime);
 		}
 	}

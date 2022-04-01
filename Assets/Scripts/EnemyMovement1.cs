@@ -5,25 +5,25 @@ using UnityEngine;
 public class EnemyMovement1 : MonoBehaviour
 {
     public float walkSpeed = 2.0f;
-    public float wallLeft = 0.0f;
-    public float wallRight = 5.0f;
     float walkingDirection = 1.0f;
+    public Transform enemyTransform;
+    public Transform rayEnemyTransform;
     Vector2 walkAmount;
+
 
     // Update is called once per frame
     void Update()
     {
         walkAmount.x = walkingDirection * walkSpeed * Time.deltaTime;
+        enemyTransform.Translate(walkAmount);
 
-        if (walkingDirection > 0.0f && transform.position.x >= wallRight)
-        {
-            walkingDirection = -1.0f;
-        }
-        else if (walkingDirection < 0.0f && transform.position.x <= wallLeft)
-        {
-            walkingDirection = 1.0f;
-            transform.Translate(walkAmount);
-        }
-
+        bool collides = Physics2D.Raycast(rayEnemyTransform.position, Vector2.right, 0.01f);
+        if (collides)
+            Flip();
+    }
+    
+    public void Flip()
+    {
+        walkingDirection *= -1.0f;
     }
 }
