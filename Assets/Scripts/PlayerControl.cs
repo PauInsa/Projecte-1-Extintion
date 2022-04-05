@@ -20,6 +20,8 @@ public class PlayerControl : MonoBehaviour
     public Animator animator;
 
     bool grounded;
+    public Transform gun;
+    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +52,11 @@ public class PlayerControl : MonoBehaviour
         else
             horizontal = 0.0f;
 
+        if(Input.GetMouseButtonDown(0))
+        {
+            Shoot();
+        }
+
 
 
         grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.01f);
@@ -73,6 +80,14 @@ public class PlayerControl : MonoBehaviour
 
             rb.AddForce(Vector2.up * jumpmagnitude);
         }
+    }
+
+    void Shoot()
+    {
+        GameObject goBullet = Instantiate(bullet, gun.position, Quaternion.identity);
+        GetComponent<LinearlMovement>();
+        
+
     }
 }
 
