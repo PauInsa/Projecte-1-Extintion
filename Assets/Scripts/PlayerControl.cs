@@ -52,7 +52,9 @@ public class PlayerControl : MonoBehaviour
         else
             horizontal = 0.0f;
 
-        if(Input.GetMouseButtonDown(0))
+
+
+        if (Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
@@ -85,9 +87,31 @@ public class PlayerControl : MonoBehaviour
     void Shoot()
     {
         GameObject goBullet = Instantiate(bullet, gun.position, Quaternion.identity);
-        GetComponent<LinearlMovement>();
-        
+        LinearMovement bulletMovement = goBullet.GetComponent<LinearMovement>();
 
+        if (spriteRenderer.flipX == false)
+        {
+            bulletMovement.SetDirection(Vector3.left);
+        }
+        else
+            bulletMovement.SetDirection(Vector3.right);
+
+
+
+        bool collides = false;
+        float rayLength = 0.1f;
+        Vector2 rayDirection = Vector2.right;
+
+        if (Physics2D.Raycast(goBullet.transform.position, LinearMovement GetDirection(), rayLength))
+        {
+            collides = true;
+          
+        }
+
+        if (collides==true)
+        {
+            Destroy(goBullet);
+        }
     }
 }
 

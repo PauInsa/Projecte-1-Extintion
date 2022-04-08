@@ -61,12 +61,12 @@
     <Compile Include="Assets\Scripts\EnemyMovement1.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\OnTriggerEnterEvent.cs" />
-    <Compile Include="Assets\Scripts\TriggerTeleporter.cs" />
-    <Compile Include="Assets\Scripts\Teleport.cs" />
-    <Compile Include="Assets\Scripts\HP.cs" />
     <Compile Include="Assets\Scripts\Damager.cs" />
-    <Compile Include="Assets\Scripts\LinearlMovement.cs" />
+    <Compile Include="Assets\Scripts\TriggerTeleporter.cs" />
+    <Compile Include="Assets\Scripts\HP.cs" />
+    <Compile Include="Assets\Scripts\Teleport.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />
+    <Compile Include="Assets\Scripts\LinearMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
