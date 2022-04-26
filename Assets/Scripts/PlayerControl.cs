@@ -102,11 +102,11 @@ public class PlayerControl : MonoBehaviour
         float rayLength = 0.1f;
         Vector2 rayDirection = Vector2.right;
 
-        if (Physics2D.Raycast(goBullet.transform.position, LinearMovement GetDirection(), rayLength))
+        /*if (Physics2D.Raycast(goBullet.transform.position, LinearMovement GetDirection(), rayLength))
         {
             collides = true;
           
-        }
+        }*/
 
         if (collides==true)
         {
