@@ -245,6 +245,8 @@ MonoBehaviour:
   spriteRenderer: {fileID: 1002607680}
   rayOriginTransform: {fileID: 1771930935}
   animator: {fileID: 1002607682}
+  gun: {fileID: 0}
+  bullet: {fileID: 0}
 --- !u!50 &1002607678
 Rigidbody2D:
   serializedVersion: 4

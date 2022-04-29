@@ -14,7 +14,7 @@ public class HP : MonoBehaviour
     }
 
 
-
+    
 
     void Die()
     {
