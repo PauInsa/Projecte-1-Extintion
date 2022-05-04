@@ -61,7 +61,7 @@ public class PlayerControl : MonoBehaviour
 
 
 
-        grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.01f);
+        grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.1f);
 
         bool isMoving = horizontal != 0;
 
