@@ -1,8 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BulletCollider
     - CameraMovement
-    - Damager
     - EnemyMovement1
     - HP
     - LinearMovement
@@ -37,8 +37,11 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
   sceneClasses:
-    Assets/Extintion.unity:
+    Assets/Scenes/Tutorial.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -54,6 +57,8 @@ ScriptsOnlyBuild:
     - Class: 50
       Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
       Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
@@ -78,7 +83,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2684}
     - Class: 114
+      Script: {instanceID: 2782}
+    - Class: 114
       Script: {instanceID: 2872}
+    - Class: 114
+      Script: {instanceID: 3242}
     - Class: 114
       Script: {instanceID: 3412}
     - Class: 114
@@ -94,6 +103,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 251
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -260,10 +271,10 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 90448c8e1af569cb5e9b64f1acfcbc4f
+      Hash: 2a2d7b828da8a3c9b45cde8b8c2e6fa1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Damager
+    className: BulletCollider
   - hash:
       serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
@@ -680,5 +691,5 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   platform: 19
   scenePathNames:
-  - Assets/Extintion.unity
+  - Assets/Scenes/Tutorial.unity
   playerPath: C:/Users/PauInsa/Documents/KrakenRepo/Projecte 1 Extintion/Build/Proyecto2.exe
