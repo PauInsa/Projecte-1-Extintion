@@ -1,13 +1,28 @@
 fileFormatVersion: 2
-guid: b43f4c0a01722fc409c44b641b9a3e54
+guid: 10d9133420330894eb2bca48d3383c2f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2615173764804636498
-    second: Player Not Moving_0
+      213: 2866880017981778655
+    second: PlayerMovingan_0
   - first:
-      213: -8078355160131541569
-    second: Player Not Moving_1
+      213: -6799058637661957608
+    second: PlayerMovingan_1
+  - first:
+      213: 157350525482379194
+    second: PlayerMovingan_2
+  - first:
+      213: 3666752012794775687
+    second: PlayerMovingan_3
+  - first:
+      213: -4301422221483943330
+    second: PlayerMovingan_4
+  - first:
+      213: -176952980113027076
+    second: PlayerMovingan_5
+  - first:
+      213: 5686649623844383881
+    second: PlayerMovingan_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,43 +148,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Not Moving_0
+      name: PlayerMovingan_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 6
         y: 6
         width: 21
         height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea016e2115905bbd0800000000000000
-      internalID: -2615173764804636498
+      spriteID: fda287ddf2439c720800000000000000
+      internalID: 2866880017981778655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Not Moving_1
+      name: PlayerMovingan_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 28
         y: 6
         width: 21
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb56ae668cae3ef80800000000000000
-      internalID: -8078355160131541569
+      spriteID: 8129b172134e4a1a0800000000000000
+      internalID: -6799058637661957608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerMovingan_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7299028750f2200800000000000000
+      internalID: 157350525482379194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerMovingan_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788c412478be2e230800000000000000
+      internalID: 3666752012794775687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerMovingan_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 6
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a5a7b87474e44c0800000000000000
+      internalID: -4301422221483943330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerMovingan_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 6
+        width: 21
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff8a6eb3365b8df0800000000000000
+      internalID: -176952980113027076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerMovingan_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 5
+        width: 21
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c6a5724b90bee40800000000000000
+      internalID: 5686649623844383881
       vertices: []
       indices: 
       edges: []

@@ -32,7 +32,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             jump();
 
@@ -54,7 +54,7 @@ public class PlayerControl : MonoBehaviour
 
 
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKey(KeyCode.K))
         {
             Shoot();
         }
