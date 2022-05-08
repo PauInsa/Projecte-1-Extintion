@@ -54,7 +54,7 @@ public class PlayerControl : MonoBehaviour
 
 
 
-        if (Input.GetKey(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             Shoot();
         }
