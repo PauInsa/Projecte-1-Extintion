@@ -29,11 +29,9 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -84,21 +82,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2228}
+      Script: {instanceID: 1574}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2312}
     - Class: 114
-      Script: {instanceID: 3396}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 3808}
+      Script: {instanceID: 3154}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 3402}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3522}
     - Class: 114
-      Script: {instanceID: 5206}
+      Script: {instanceID: 4556}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,27 +164,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2194}
+      Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 2266}
+      Script: {instanceID: 1612}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 3298}
+      Script: {instanceID: 2644}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 2810}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 2916}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 4056}
+      Script: {instanceID: 3402}
     - Class: 114
-      Script: {instanceID: 4230}
+      Script: {instanceID: 3578}
     - Class: 114
-      Script: {instanceID: 4968}
+      Script: {instanceID: 4316}
     - Class: 114
-      Script: {instanceID: 5936}
+      Script: {instanceID: 5286}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -788,4 +786,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Credits.unity
   - Assets/Scenes/Settings.unity
   - Assets/Scenes/Tutorial.unity
-  playerPath: C:/Users/PauInsa/Documents/KrakenRepo/Projecte 1 Extintion/Build/Proyecto2.exe
+  playerPath: C:/Users/Pau/Desktop/kraken/Projecte-1-Extintion/Build/Proyecto2.exe

@@ -32,10 +32,13 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        bool isJumping = false;
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             jump();
-
+            isJumping = true;
         }
 
         if (Input.GetKey(KeyCode.A))
@@ -63,9 +66,11 @@ public class PlayerControl : MonoBehaviour
 
         grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.1f);
 
+
         bool isMoving = horizontal != 0;
 
         animator.SetBool("isMoving", isMoving);
+        animator.SetBool("isJumping", isJumping);
     }
 
     private void FixedUpdate()
@@ -79,7 +84,6 @@ public class PlayerControl : MonoBehaviour
     {
         if (grounded == true)
         {
-
             rb.AddForce(Vector2.up * jumpmagnitude);
         }
     }
