@@ -14,7 +14,7 @@ public class OnTriggerEnterEvent: MonoBehaviour
 	{
 		if (skipEvents) return;
 
-		if ((targetTag == string.Empty || other.CompareTag(targetTag)) && HasLayer(layerMask, other.gameObject.layer))
+		if (targetTag == string.Empty || other.CompareTag(targetTag))
 		{
 			if (oneShot)
 				skipEvents = true;

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 092fc142d8798954b89b4513fd74f68f
+  - enabled: 1
+    path: Assets/Scenes/Pasillo.unity
+    guid: b40f6d19952cc8f4295cc9a81c28bcb7
   m_configObjects: {}
