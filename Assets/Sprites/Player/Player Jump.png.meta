@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 822d6f3548e7d3a4b8d6316dae85fd92
+guid: afef2330344de1b44bf260722671efa2
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -93,6 +93,42 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -100,9 +136,9 @@ TextureImporter:
       name: Player Jump_0
       rect:
         serializedVersion: 2
-        x: 23
+        x: 21
         y: 12
-        width: 22
+        width: 23
         height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -121,9 +157,9 @@ TextureImporter:
       name: Player Jump_1
       rect:
         serializedVersion: 2
-        x: 46
+        x: 45
         y: 12
-        width: 22
+        width: 23
         height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
