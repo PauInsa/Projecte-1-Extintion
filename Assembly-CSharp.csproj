@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EAF5A807-5408-961C-0163-3D219C9F5D98}</ProjectGuid>
+    <ProjectGuid>{6BD47502-C2A0-CF24-821A-1450D3B05E4E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,12 +63,15 @@
     <Compile Include="Assets\Scripts\OnTriggerEnterEvent.cs" />
     <Compile Include="Assets\Scripts\BulletCollider.cs" />
     <Compile Include="Assets\Scripts\TriggerTeleporter.cs" />
+    <Compile Include="Assets\Scripts\Trampolin.cs" />
     <Compile Include="Assets\Scripts\HP.cs" />
     <Compile Include="Assets\Scripts\Teleport.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />
     <Compile Include="Assets\Scripts\ChangeScenes.cs" />
     <Compile Include="Assets\Scripts\LinearMovement.cs" />
-    <Compile Include="Assets\Scripts\Trampolin.cs" />
+    <Compile Include="Assets\Scripts\OnPressKeyEvent.cs" />
+    <Compile Include="Assets\Scripts\OnTriggerExitEvent.cs" />
+    <Compile Include="Assets\Scripts\PauseWhenActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
