@@ -34,6 +34,7 @@ public class PlayerControl : MonoBehaviour
     {
 
         bool isJumping = false;
+        bool isShooting = false;
 
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -60,6 +61,7 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             Shoot();
+            isShooting = true;
         }
 
 
@@ -71,6 +73,7 @@ public class PlayerControl : MonoBehaviour
 
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("isJumping", isJumping);
+        animator.SetBool("isShooting", isShooting);
     }
 
     private void FixedUpdate()
