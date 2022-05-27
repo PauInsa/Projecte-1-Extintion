@@ -14,7 +14,8 @@ public class Trampolin : MonoBehaviour
         if(collision.transform.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * jumpF);
-            animator.Play("Soap Animation 0");
+            animator.SetTrigger("existJump");
         }
+
     }
 }
