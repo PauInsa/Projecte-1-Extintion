@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":337.216552734375,"y":215.7187042236328,"z":-87.57830810546875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":321.6025085449219,"orthographic":true}
-=======
-<<<<<<< HEAD
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":479.4333801269531,"y":295.7922058105469,"z":-109.66490936279297},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":399.6087646484375,"orthographic":true}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":-5.5699238777160648,"y":-0.32047125697135928,"z":-18.628644943237306},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":0.7870387434959412,"orthographic":true}
->>>>>>> animacionSinDisparo
->>>>>>> main
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":5.435206890106201,"y":0.7503182888031006,"z":-10.733052253723145},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":3.4903531074523927,"orthographic":true}

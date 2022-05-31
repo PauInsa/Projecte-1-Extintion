@@ -62,16 +62,16 @@
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\OnTriggerEnterEvent.cs" />
     <Compile Include="Assets\Scripts\BulletCollider.cs" />
+    <Compile Include="Assets\Scripts\PauseWhenActive.cs" />
     <Compile Include="Assets\Scripts\TriggerTeleporter.cs" />
     <Compile Include="Assets\Scripts\Trampolin.cs" />
+    <Compile Include="Assets\Scripts\OnTriggerExitEvent.cs" />
     <Compile Include="Assets\Scripts\HP.cs" />
     <Compile Include="Assets\Scripts\Teleport.cs" />
+    <Compile Include="Assets\Scripts\OnPressKeyEvent.cs" />
     <Compile Include="Assets\Scripts\Shooting.cs" />
     <Compile Include="Assets\Scripts\ChangeScenes.cs" />
     <Compile Include="Assets\Scripts\LinearMovement.cs" />
-    <Compile Include="Assets\Scripts\OnPressKeyEvent.cs" />
-    <Compile Include="Assets\Scripts\OnTriggerExitEvent.cs" />
-    <Compile Include="Assets\Scripts\PauseWhenActive.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
