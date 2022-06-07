@@ -73,6 +73,7 @@ public class PlayerControl : MonoBehaviour
 
         bool isMoving = horizontal != 0;
 
+
         animator.SetBool("isMoving", isMoving);
         animator.SetBool("isJumping", isJumping);
         animator.SetBool("isShooting", isShooting);

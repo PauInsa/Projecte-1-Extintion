@@ -1253,7 +1253,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &471048299
 GameObject:
@@ -3053,7 +3053,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1391449909
 MonoBehaviour:
@@ -3187,7 +3187,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1501703933
 GameObject:
@@ -3885,7 +3885,7 @@ RectTransform:
   m_Children:
   - {fileID: 622478278}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4342,7 +4342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391522819728085370, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.034
+      value: 4.81
       objectReference: {fileID: 0}
     - target: {fileID: 3391522819728085370, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4378,6 +4378,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3391522819728085370, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391522820106466424, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
+      propertyPath: m_Size.x
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391522820106466424, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
+      propertyPath: m_Size.y
+      value: 0.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3391522820106466424, guid: 25928a40e347d0d4aab86db0bb956b36, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
