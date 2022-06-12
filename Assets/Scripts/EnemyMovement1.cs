@@ -28,11 +28,6 @@ public class EnemyMovement1 : MonoBehaviour
         if (Physics2D.Raycast(rayEnemyTransform.position, rayDirection, rayLength))
         {
             collides = true;
-            Debug.DrawRay(rayEnemyTransform.position, rayDirection * rayLength, Color.green);
-        }
-        else
-        {
-            Debug.DrawRay(rayEnemyTransform.position, rayDirection * rayLength, Color.red);
         }
 
         if (collides)
