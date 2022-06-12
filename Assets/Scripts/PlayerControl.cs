@@ -23,15 +23,20 @@ public class PlayerControl : MonoBehaviour
     public Transform gun;
     public GameObject bullet;
 
+    private float timeToShoot = 0.5f;
+    private float currentTimeToShoot;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        currentTimeToShoot = timeToShoot;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
         if (Time.timeScale == 0)
             return;
 
@@ -59,11 +64,18 @@ public class PlayerControl : MonoBehaviour
             horizontal = 0.0f;
 
 
-
-        if (Input.GetKeyDown(KeyCode.K))
+        if (currentTimeToShoot <= 0)
         {
-            Shoot();
-            isShooting = true;
+            if (Input.GetKeyDown(KeyCode.K))
+            {
+                Shoot();
+                currentTimeToShoot = timeToShoot;
+                isShooting = true;
+            }
+        }
+        else
+        {
+            currentTimeToShoot -= Time.deltaTime;
         }
 
 
