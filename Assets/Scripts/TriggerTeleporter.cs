@@ -10,7 +10,9 @@ public class TriggerTeleporter : MonoBehaviour
 	public bool skipEvents;
 	[SerializeField] Transform targetTransform;
 	[SerializeField] float delayTime;
+	public AudioSource audioSource;
 
+		
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 		if (skipEvents) return;
@@ -24,6 +26,7 @@ public class TriggerTeleporter : MonoBehaviour
 				onTriggerTeleport.Invoke(targetTransform.position);
 
 			onTriggerTeleportWithDelay?.Invoke(targetTransform.position, delayTime);
+			audioSource.Play();
 		}
 	}
 

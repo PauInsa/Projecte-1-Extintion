@@ -5,9 +5,10 @@ using UnityEngine;
 public class PlayerAnimationEvents : MonoBehaviour
 {
     public AudioSource audioSource;
-    public void PlaySound(AudioClip clip)
+
+    public void PlaySound(AudioClip clip1)
     {
-        audioSource.clip = clip;
+        audioSource.clip = clip1;
         audioSource.loop = false;
         audioSource.Play();
     }
