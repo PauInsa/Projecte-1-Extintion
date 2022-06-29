@@ -171,6 +171,7 @@ MonoBehaviour:
   enemyTransform: {fileID: 2225467997796976409}
   rayEnemyTransform: {fileID: 2225467996682767831}
   spriteRenderer: {fileID: 2225467997796976414}
+  damage: 10
 --- !u!114 &2225467997796976410
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,6 +19,8 @@ public class PlayerControl : MonoBehaviour
 
     public Animator animator;
 
+    public AudioSource audioSource;
+
     bool grounded;
     public Transform gun;
     public GameObject bullet;
@@ -35,6 +37,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool landing = grounded;
 
 
         if (Time.timeScale == 0)
@@ -82,6 +85,9 @@ public class PlayerControl : MonoBehaviour
 
         grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.1f);
 
+        /*if(landing == false && grounded == true)
+            audioSource.Play();*/
+
 
         bool isMoving = horizontal != 0;
 
@@ -93,9 +99,7 @@ public class PlayerControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
     }
 
     void jump()
@@ -103,6 +107,8 @@ public class PlayerControl : MonoBehaviour
         if (grounded == true)
         {
             rb.AddForce(Vector2.up * jumpmagnitude);
+            if (grounded == true)
+                audioSource.Play();
         }
     }
 

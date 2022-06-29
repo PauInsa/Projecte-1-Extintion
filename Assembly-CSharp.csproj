@@ -62,7 +62,6 @@
      <Compile Include="Assets\Scripts\HP.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Scripts\OnPressKeyEvent.cs" />
-     <Compile Include="Assets\Scripts\Shooting.cs" />
      <Compile Include="Assets\Scripts\ChangeScenes.cs" />
      <Compile Include="Assets\Scripts\LinearMovement.cs" />
  <Reference Include="UnityEngine">

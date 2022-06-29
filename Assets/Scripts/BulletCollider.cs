@@ -27,9 +27,5 @@ public class BulletCollider : MonoBehaviour
 
 	}
 
-	public static bool HasLayer(LayerMask layerMask, int layer)
-	{
-		return layerMask == (layerMask | (1 << layer));
-	}
 
 }
