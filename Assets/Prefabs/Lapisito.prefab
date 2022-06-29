@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 2225467997796976410}
   - component: {fileID: 7554564269057124601}
   - component: {fileID: 6408261369923148062}
+  - component: {fileID: 2901268261999047289}
   m_Layer: 6
   m_Name: Lapisito
   m_TagString: Enemy 1
@@ -132,8 +133,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.015435308, y: -0.0068956614}
-  m_Size: {x: 0.1361627, y: 0.7050859}
+  m_Offset: {x: 0.0024567284, y: 0.003144222}
+  m_Size: {x: 0.16211985, y: 0.72516567}
   m_Direction: 0
 --- !u!50 &2225467997796976411
 Rigidbody2D:
@@ -302,3 +303,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &2901268261999047289
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2225467997796976412}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0017318514, y: 0.017318744}
+  m_Size: {x: 0.15573816, y: 0.7046377}
+  m_Direction: 0
