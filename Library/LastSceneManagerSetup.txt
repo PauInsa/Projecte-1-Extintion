@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AulaQuimica.unity
+- path: Assets/Scenes/Pasillo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
