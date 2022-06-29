@@ -37,9 +37,6 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool landing = grounded;
-
-
         if (Time.timeScale == 0)
             return;
 
@@ -84,9 +81,6 @@ public class PlayerControl : MonoBehaviour
 
 
         grounded = Physics2D.Raycast(rayOriginTransform.position, Vector2.down, 0.1f);
-
-        /*if(landing == false && grounded == true)
-            audioSource.Play();*/
 
 
         bool isMoving = horizontal != 0;

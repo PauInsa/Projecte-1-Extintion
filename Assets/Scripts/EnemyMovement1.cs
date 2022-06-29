@@ -11,6 +11,9 @@ public class EnemyMovement1 : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     Vector2 walkAmount;
 
+    public Animator animator;
+
+    private int enemyState=0;
 
     // Update is called once per frame
     void Update()
@@ -32,6 +35,22 @@ public class EnemyMovement1 : MonoBehaviour
 
         if (collides)
             Flip();
+
+        HP hp = GetComponent<HP>();
+        if (hp.hp >=40)
+        {
+            enemyState = 0;
+        }
+        else if (hp.hp >= 20)
+        {
+            enemyState = 1;
+        }
+        else if (hp.hp >= 0)
+        {
+            enemyState = 2;
+        }
+
+        animator.SetInteger("State", enemyState);
     }
     
     public void Flip()
@@ -42,4 +61,5 @@ public class EnemyMovement1 : MonoBehaviour
         else
             spriteRenderer.flipX = true;
     }
+
 }

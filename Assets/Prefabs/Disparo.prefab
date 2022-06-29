@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6122e0b69f091a24dbc384298fb3d56a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   damage: 10
 --- !u!114 &6023574166192824587
 MonoBehaviour:
